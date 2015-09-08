@@ -1121,12 +1121,12 @@ hr {
 	}
 
 	#headerbar .headerWidget {
-	width: 190px;
+	width: 174px;
 	margin: 0 auto;
 }
 
 	#headerbar .qnaWidget {
-	width: 190px;
+	width: 200px;
 	margin: 0 auto;
 }
 
@@ -1149,6 +1149,7 @@ hr {
 
 h1.contact {
 	text-align: left;
+	font-weight: 500;
 }
 
 	ul.qna {padding:0; display: block;}
