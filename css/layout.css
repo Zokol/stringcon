@@ -683,14 +683,17 @@ hr {
 		position: absolute;
 		background-position: top center;
 		background-repeat: no-repeat;
-		height: 1000px;
+		height: 600px;
 		width: 100%;
 	}
 
-	@media(min-height:500px){
+	@media(min-height:400px){
 		#landing_poster {
 			height: 100vh;
 			width: 100%;
+		}
+		.filler_row {
+			height: 100vh;
 		}
 	}
 
@@ -1144,7 +1147,7 @@ hr {
 .filler_row {
 	margin-top: 0;
 	margin-bottom: 0;
-	height: 100vh;
+	height: 600px;
 }
 
 h1.contact {
