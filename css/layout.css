@@ -413,7 +413,7 @@ hr {
 ================================================== */
 /* GENERAL
 ================================================== */
-.slice {padding:33px 0;}
+.slice {padding:0;}
 
 /*** buttons ***/
 .btn {
@@ -478,7 +478,7 @@ hr {
 }
 
 @media(min-width:768px){
-	.slice {padding:66px 0;}
+	.slice {padding:0;}
 }
 
 @media(min-width:992px){
@@ -1137,11 +1137,13 @@ hr {
 }
 
 .row {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 .filler_row {
+	margin-top: 0;
+	margin-bottom: 0;
 	height: 100vh;
 }
 
